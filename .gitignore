@@ -33,3 +33,6 @@ out/
 # Keep PDF source artwork in version control
 !figures/*.pdf
 
+# reference
+
+reference/
