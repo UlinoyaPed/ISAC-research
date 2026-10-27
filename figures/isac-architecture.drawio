@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="LLCOlIkmnafLA0ceuWjh">
+    <mxGraphModel dx="678" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UyJYknSelNlare4jOz69-1" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;" value="终端设备" vertex="1">
+          <mxGeometry height="50" width="130" x="230" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;dashed=1;dashPattern=12 12;" value="基站" vertex="1">
+          <mxGeometry height="60" width="130" x="384" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-6" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;" value="数据处理平台" vertex="1">
+          <mxGeometry height="50" width="130" x="485" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="可为机内处理器&lt;div&gt;或附近的服务器&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="480" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-8" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;" value="管理平台" vertex="1">
+          <mxGeometry height="50" width="130" x="384" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-11" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=19;" value="环境目标" vertex="1">
+          <mxGeometry height="80" width="120" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-12" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="420" as="sourcePoint" />
+            <mxPoint x="300" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-14" connectable="0" parent="UyJYknSelNlare4jOz69-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=18;defaultLabelBackgroundColor=page;fontStyle=0" value="发射与回波" vertex="1">
+          <mxGeometry relative="1" x="0.1044" y="2" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-16" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="460" as="sourcePoint" />
+            <mxPoint x="380" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-17" connectable="0" parent="UyJYknSelNlare4jOz69-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=18;defaultLabelBackgroundColor=page;fontStyle=0" value="通信" vertex="1">
+          <mxGeometry relative="1" x="0.1044" y="2" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-22" connectable="0" parent="UyJYknSelNlare4jOz69-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=18;defaultLabelBackgroundColor=page;" value="感知结果" vertex="1">
+          <mxGeometry relative="1" x="-0.22" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-26" edge="1" parent="1" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;dashed=1;dashPattern=8 8;strokeColor=#FF9933;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.5971" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="310" />
+              <mxPoint x="490" y="510" />
+            </Array>
+            <mxPoint x="480" y="270" as="sourcePoint" />
+            <mxPoint x="378" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyJYknSelNlare4jOz69-27" connectable="0" parent="UyJYknSelNlare4jOz69-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=18;defaultLabelBackgroundColor=page;fontColor=#FF9933;fontStyle=1" value="平台下发" vertex="1">
+          <mxGeometry relative="1" x="-0.4315" y="1" as="geometry">
+            <mxPoint x="42" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

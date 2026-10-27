@@ -10,6 +10,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{array}
+\usepackage{placeins}
 
 % 自动换行、左对齐的弹性列
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
@@ -110,11 +111,18 @@
 
 \subsection{系统基本组成}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[
+        width=0.9\textwidth
+    ]{figures/isac-architecture.pdf}
+    \caption{通感一体化系统架构示意图}
+    \label{fig:isac-architecture}
+\end{figure}
+
 通感一体化系统主要由无线收发设备、通信终端、数据处理设备和应用管理平台组成（如表~\ref{tab:isac-components}）。无线收发设备负责信号的发射与接收，通信终端负责数据传输，数据处理设备通过分析接收信号获取目标的位置、速度等信息，应用平台则对感知结果进行展示和分析，实现监测、预警及调度等功能\cite{zhang2021perceptive}。
 
 以无人机航线管理为例，沿航线部署的通感基站可以在提供通信服务的同时感知无人机的位置和运动轨迹。数据处理设备对接收信号进行分析，管理平台将感知结果与预定航线进行比较，从而判断无人机是否偏航或进入限制区域。
-
-TODO: 架构示意图
 
 % | 组成部分 | 现场可能看到的设备 | 主要工作 | 输出内容 |
 % | --- | --- | --- | --- |
@@ -159,6 +167,8 @@ TODO: 架构示意图
         \bottomrule
     \end{tabularx}
 \end{table}
+
+\FloatBarrier
 
 \subsection{工作原理}
 
