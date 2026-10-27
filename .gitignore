@@ -1,0 +1,35 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+*.pdf
+
+# DVI / PostScript
+*.dvi
+*.ps
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# LaTeX Workshop
+*.synctex(busy)
+
+# Build directory
+build/
+out/
+
+# Keep PDF source artwork in version control
+!figures/*.pdf
+

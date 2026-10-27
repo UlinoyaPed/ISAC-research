@@ -1,0 +1,93 @@
+%%ZJUT课程论文模板
+%%作者：GDY
+%%License：Apache-2.0 license
+%%GitHub:
+%https://github.com/ohhhyeahhh/ZJUT_Report_LaTeX_Template
+
+%%最后更改于2024/3/15
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%BUAA课程论文模板
+%%作者：zzdyyy
+%%License：Apache-2.0 license
+
+%%最后更改于2024/3/4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%RUC课程论文模板
+%%作者：xxmy7
+%%License：Apache-2.0 license
+%%GitHub：https://github.com/xxmy7/RUC_Report_Latex_Template
+%%Overleaf：https://www.overleaf.com/latex/templates/ruc-report-latex-template/hhwhvvwczbnm
+
+%%最后更改于2023/10/20
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%在"中国科学院大学课程论文模板"基础上修改而来
+%%原作者：jweihe
+%%GitHub：https://github.com/jweihe/UCAS_Latex_Template
+%%Overleaf：https://www.overleaf.com/latex/templates/zhong-guo-ke-xue-yuan-da-xue-ke-cheng-lun-wen-mo-ban/nphpxhhqvnds
+
+%%在"北京大学课程论文模板"基础上修改而来
+%%原作者：Shawn Wang
+%%Overleaf地址：https://www.overleaf.com/latex/templates/bei-jing-da-xue-ke-cheng-lun-wen-mo-ban/yntmqcktrzfh
+
+
+
+
+% Modified 2026-09-24: minimal BJUT report with a variable-length member list.
+\ProvidesPackage{BJUTReport}[2026/09/23 BJUT course report]
+\RequirePackage[left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm]{geometry}
+\RequirePackage{fontspec,graphicx}
+\RequirePackage{fancyhdr,setspace}
+\RequirePackage[unicode,colorlinks,linkcolor=black,citecolor=black,urlcolor=blue,bookmarksnumbered=true]{hyperref}
+\setmainfont{TeX Gyre Termes}
+\setstretch{1.5}
+\newcommand{\reporttitle}{请填写报告题目}
+\newcommand{\reportcollege}{请填写学院}
+\newcommand{\reportmajor}{请填写专业}
+\newcommand{\reportclass}{请填写班级}
+\newcommand{\member}[2]{#1 & #2 \\}
+\newcommand{\reportmembers}{\member{请填写姓名}{请填写学号}}
+\newcommand{\reportteacher}{请填写指导教师}
+\newcommand{\reportdate}{\today}
+\newcommand{\reportcourse}{新生研讨课学期报告}
+\newcommand{\dlmu}[2][8cm]{\underline{\makebox[#1][c]{#2}}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small\fangsong 北京工业大学\quad\reportcourse}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{18pt}
+\newcommand{\cover}{%
+  \hypersetup{pageanchor=false}
+  \begin{titlepage}
+    \centering
+    \vspace*{0.3cm}
+    \includegraphics[width=0.80\textwidth]{figures/bjut_logo.pdf}\par
+    \vspace{1.2cm}
+    {\heiti\zihao{1}\reportcourse\par}
+    \vspace{0.7cm}
+    {\heiti\zihao{3}\reporttitle\par}
+    \vfill
+    {\kaishu\zihao{3}\renewcommand{\arraystretch}{1.4}
+    \begin{tabular}{rc}
+      学\quad 院 & \dlmu{\reportcollege}\\
+      专\quad 业 & \dlmu{\reportmajor}\\
+      班\quad 级 & \dlmu{\reportclass}\\
+      指导教师 & \dlmu{\reportteacher}
+    \end{tabular}\par}
+    \vspace{0.7cm}
+    {\kaishu\zihao{4}\renewcommand{\arraystretch}{1.4}
+    \begin{tabular}{p{4cm}p{5cm}}
+      姓名 & 学号 \\\hline
+      \reportmembers
+    \end{tabular}\par}
+    \vfill
+    {\zihao{4}\reportdate\par}
+    \vspace*{0.6cm}
+  \end{titlepage}
+  \pagenumbering{Roman}
+  \hypersetup{pageanchor=true}
+}
+\renewcommand{\abstractname}{\heiti\large 摘\quad 要}
+\newcommand{\keywords}[1]{\par\noindent\textbf{关键词：}#1}
