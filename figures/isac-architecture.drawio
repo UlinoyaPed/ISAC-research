@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="LLCOlIkmnafLA0ceuWjh">
-    <mxGraphModel dx="678" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="476" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,29 +20,7 @@
           <mxGeometry height="50" width="130" x="384" y="210" as="geometry" />
         </mxCell>
         <mxCell id="UyJYknSelNlare4jOz69-11" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=19;" value="环境目标" vertex="1">
-          <mxGeometry height="80" width="120" x="190" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="UyJYknSelNlare4jOz69-12" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="270" y="420" as="sourcePoint" />
-            <mxPoint x="300" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UyJYknSelNlare4jOz69-14" connectable="0" parent="UyJYknSelNlare4jOz69-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=18;defaultLabelBackgroundColor=page;fontStyle=0" value="发射与回波" vertex="1">
-          <mxGeometry relative="1" x="0.1044" y="2" as="geometry">
-            <mxPoint y="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UyJYknSelNlare4jOz69-16" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="440" y="460" as="sourcePoint" />
-            <mxPoint x="380" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UyJYknSelNlare4jOz69-17" connectable="0" parent="UyJYknSelNlare4jOz69-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=18;defaultLabelBackgroundColor=page;fontStyle=0" value="通信" vertex="1">
-          <mxGeometry relative="1" x="0.1044" y="2" as="geometry">
-            <mxPoint y="-3" as="offset" />
-          </mxGeometry>
+          <mxGeometry height="80" width="120" x="210" y="310" as="geometry" />
         </mxCell>
         <mxCell id="UyJYknSelNlare4jOz69-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -68,6 +46,35 @@
         <mxCell id="UyJYknSelNlare4jOz69-27" connectable="0" parent="UyJYknSelNlare4jOz69-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=18;defaultLabelBackgroundColor=page;fontColor=#FF9933;fontStyle=1" value="平台下发" vertex="1">
           <mxGeometry relative="1" x="-0.4315" y="1" as="geometry">
             <mxPoint x="42" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sC6lRaafKFh2KLWhpxCG-1" edge="1" parent="1" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;startArrow=classic;startFill=1;fontSize=18;fillColor=#0066CC;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.6641" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="460" />
+              <mxPoint x="380" y="450" />
+            </Array>
+            <mxPoint x="290" y="510" as="sourcePoint" />
+            <mxPoint x="380" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sC6lRaafKFh2KLWhpxCG-4" connectable="0" parent="sC6lRaafKFh2KLWhpxCG-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=18;defaultLabelBackgroundColor=page;fillColor=#00FF80;" value="通信" vertex="1">
+          <mxGeometry relative="1" x="0.3578" y="-4" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sC6lRaafKFh2KLWhpxCG-2" edge="1" parent="1" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;fontSize=18;fillColor=#0066CC;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.2704" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="460" />
+            </Array>
+            <mxPoint x="301.48" y="492.66" as="sourcePoint" />
+            <mxPoint x="290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sC6lRaafKFh2KLWhpxCG-5" connectable="0" parent="sC6lRaafKFh2KLWhpxCG-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=18;defaultLabelBackgroundColor=page;fillColor=#00FF80;" value="发射与回波" vertex="1">
+          <mxGeometry relative="1" x="0.4214" y="-1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
